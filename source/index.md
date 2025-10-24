@@ -3,6 +3,8 @@ title: 广州今日天气
 layout: page
 ---
 
+{% raw %}
+
 <div id="app" class="weather-card">
   <header class="weather-header">
     <h1>{{ city }}今日天气</h1>
@@ -136,3 +138,5 @@ createApp({
   }
 }
 </style>
+
+{% endraw %}
