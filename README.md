@@ -2,6 +2,11 @@
 
 一个使用 [Hexo](https://hexo.io/) 构建、通过 Vue 展示天气信息的示例项目，可直接部署到 GitHub Pages，向用户提供广州今日天气状况。
 
+## 在线访问
+
+GitHub Pages 已启用，可通过以下地址访问站点：
+- https://lxljl.github.io/sea_ctonew/
+
 ## 功能概览
 
 - 📌 **Vue 驱动的天气卡片**：在首页以交互的方式展示广州今日温度、湿度与风力等数据。
@@ -31,15 +36,16 @@ Hexo 会在 `http://localhost:4000` 启动预览服务，文件保存后页面�
 
 ## 构建与部署
 
-1. 编辑 `_config.yml`，将以下示例值替换为你自己的 GitHub 信息：
+1. 如需部署到你自己的仓库，可编辑 `_config.yml` 更新 GitHub 信息。当前仓库的默认配置如下：
    ```yaml
-   url: https://example.github.io/hexo-weather/
+   url: https://lxljl.github.io/sea_ctonew/
+   root: /sea_ctonew/
    deploy:
      type: git
-     repo: git@github.com:example/hexo-weather.git
+     repo: https://github.com/lxljl/sea_ctonew.git
      branch: gh-pages
    ```
-   > 将 `example` 和 `hexo-weather` 替换为你 GitHub 的用户名与仓库名；如需使用 HTTPS 方式部署，可改为 `https://github.com/<用户名>/<仓库名>.git`。
+   > 如果你 fork 了此项目，请将其中的用户名与仓库名替换为你自己的；也可以改为 `https://github.com/<用户名>/<仓库名>.git` 或 SSH 地址。
 
 2. 构建并发布：
    ```bash

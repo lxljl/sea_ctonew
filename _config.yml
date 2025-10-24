@@ -13,7 +13,8 @@ timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://example.github.io/hexo-weather/
+url: https://lxljl.github.io/sea_ctonew/
+root: /sea_ctonew/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -102,6 +103,6 @@ theme: landscape
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:example/hexo-weather.git
+  repo: https://github.com/lxljl/sea_ctonew.git
   branch: gh-pages
   message: Update site content
